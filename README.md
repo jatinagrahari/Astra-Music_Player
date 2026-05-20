@@ -8,7 +8,7 @@
 [![Responsive](https://img.shields.io/badge/Design-Responsive-success)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-🔗 **[Live Demo](https://astramusicplayer.netlify.app/)** • 📚 **[Documentation](#documentation)** • 🐛 **[Report Bug](https://github.com/jatinagrahari/Astra-Music_Player/issues)** • ⭐ **[GitHub](https://github.com/jatinagrahari/Astra-Music_Player)**
+🔗 **[Live Demo](https://astra-musics.netlify.app/)** • 📚 **[Documentation](#documentation)** • 🐛 **[Report Bug](https://github.com/jatinagrahari/Astra-Music_Player/issues)** • ⭐ **[GitHub](https://github.com/jatinagrahari/Astra-Music_Player)**
 
 ---
 

@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import PlayerControls from '../components/PlayerControls';
+import Footer from '../components/Footer';
 
 const AppLayout = () => {
   return (
@@ -20,8 +21,9 @@ const AppLayout = () => {
           
           <div className="relative z-10 flex flex-col h-full rounded-tl-lg bg-player-surface overflow-hidden">
             <Navbar />
-            <div className="flex-1 overflow-y-auto custom-scrollbar p-6">
+            <div className="flex-1 overflow-y-auto custom-scrollbar p-6 pb-24">
               <Outlet />
+              <Footer />
             </div>
           </div>
         </div>

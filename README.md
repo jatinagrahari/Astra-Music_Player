@@ -17,7 +17,7 @@ Astra Music Player is a premium, Spotify-inspired audio streaming interface buil
 
 ## Live Demo
 
-[Live Demo Link](#) _(Replace with deployed link)_
+[Live Demo Link](https://astramusicplay.netlify.app/)
 
 ## Tech Stack
 

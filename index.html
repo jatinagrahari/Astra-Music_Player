@@ -1,60 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Player | Your Favorite Music is here!</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <title>astra-temp</title>
   </head>
   <body>
-    <div class="container">
-      <div class="top-header">
-        <i class="material-icons">expand_more</i>
-        <span>Now Playing</span>
-        <i class="material-icons">more_horiz</i>
-      </div>
-      <div class="image-area">
-        <img src="" alt="" />
-      </div>
-      <div class="song-details">
-        <p class="song-name"></p>
-        <p class="song-artist"></p>
-      </div>
-      <div class="song-progress">
-        <div class="progress-bar"></div>
-        <div class="song-timer">
-          <span class="current-time"></span>
-          <span class="final"></span>
-        </div>
-        <audio id="song-audio" src=""></audio>
-      </div>
-      <div class="controls">
-        <i id="repeat" class="material-icons">repeat</i>
-        <i id="previous" class="material-icons">skip_previous</i>
-        <div class="play-pause">
-          <i class="material-icons">play_arrow</i>
-        </div>
-        <i id="next" class="material-icons">skip_next</i>
-        <i id="more-music" class="material-icons">queue_music</i>
-      </div>
-      <div class="music-list">
-        <div class="header">
-          <div class="row">
-            <i class="material-icons">queue_music</i>
-            <span>Music List</span>
-          </div>
-          <i id="close" class="material-icons">close</i>
-        </div>
-        <ul></ul>
-      </div>
-    </div>
-
-    <script src="./musiclist.js"></script>
-    <script src="./script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

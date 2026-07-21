@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-player-base text-white font-sans antialiased overflow-hidden selection:bg-player-accent selection:text-black;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* Custom thin scrollbar for lists */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-zinc-700/50 rounded-full hover:bg-zinc-600 transition-colors;
+  }
+}
+
+/* Range input styling for volume and progress bars */
+input[type=range] {
+  -webkit-appearance: none;
+  @apply w-full h-1 rounded-full focus:outline-none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  @apply w-full h-1 bg-transparent cursor-pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  @apply h-3 w-3 rounded-full bg-white cursor-pointer appearance-none shadow-md opacity-0 transition-opacity;
+  margin-top: -4px;
+}
+
+.group:hover input[type=range]::-webkit-slider-thumb {
+  @apply opacity-100;
+}
+
+input[type=range]:hover::-webkit-slider-thumb {
+  @apply opacity-100;
+}
